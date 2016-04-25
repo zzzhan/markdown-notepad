@@ -49,8 +49,16 @@ module.exports = function (grunt) {
         dest: 'dist/js/<%=pkg.name %>.all.js'
       }
 	},
+    copy: {
+      img: {
+        expand: true,
+        cwd: 'src/img/',
+        src: '**/*',
+        dest:'dist/img/'
+      }
+	},
     clean: ['dist']
   });
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
-  grunt.registerTask('default', ['jshint','clean','uglify','cssmin','concat']);
+  grunt.registerTask('default', ['jshint','clean','uglify','cssmin','concat','copy']);
 };

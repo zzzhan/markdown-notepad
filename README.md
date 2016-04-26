@@ -1,6 +1,6 @@
 # Markdown Notepad
 
-> An markdown notepad on the web.Awesome features buit-in multi-tabs,autosaving,inserting local image without upload,paste the screen capture and so on.
+> A markdown notepad on the web.Awesome features buit-in multi-tabs,autosaving,inserting local image without upload,paste the screen capture and so on.
 >> [**Getting Started**](http://zzzhan.github.io/markdown-notepad/ 'Online Markdown Editor')
 
 ## Features

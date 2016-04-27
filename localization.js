@@ -10,9 +10,9 @@ module.exports = function(grunt) {
 		  welcome: 'src/tpl/readme.md'
 		},
 		renderer: function(k, v) {
-		  var flag = /@.+\.md$/.test(k),
-		  ctx = this.ctx;
-		  if(flag) {
+		  var ctx = this.ctx,
+			  arr = /^@.+\.(\w{2,4})$/i.exec(k);
+		  if(!!arr) {
 			var ret = /_(\w{2}\-\w{2})\.\w{2,4}/i.exec(ctx.dest),lang='en-US',
 			filename=k.substring(1),
 			defPath='src/lang/'+lang+'/'+filename;
@@ -27,7 +27,7 @@ module.exports = function(grunt) {
 			} else {
 			  mdString = grunt.file.read(defPath);				
 			}
-			v = converter.makeHtml(mdString);
+			v = arr[1].toLowerCase()==='md'?converter.makeHtml(mdString):mdString;
 		  }
 		  return v;
 		}

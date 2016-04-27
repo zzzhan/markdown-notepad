@@ -1,42 +1,58 @@
-# ![favicon-96x96.png](data:image/png;base64,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)Welcome to Markdown Notepad
+# ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) Welcome to Markdown Notepad
 
-> This is an awesome tool on the web for markdown text editing.What you are reading now was edited using this tool by myself.You can press `Preview` above to see the markdown text.
-> This tool is free, enjoy it! Welcome any feedbacks:)
+> This is an awesome tool on the web for markdown text editing.What you are reading now was edited using this tool by myself.You can press `Preview` above to see the markdown text. This tool is free, enjoy it! Welcome any feedbacks:)
 
-## Features
 
-* Support multiple tabs(multiple open, editing and preview)
-* Support auto save, even the browser close or terminated
-* Support insert a local image without upload
-* Support paste the screen capture
-* Support shortcuts
-* Support fullscreen mode
-* Support offline
-* Github flavored for preview
+<h2 id="features">Features</h2>
 
-## Shortcuts
+<ul>
+<li>Support multiple tabs(multiple open, editing and preview)</li>
 
-* <kbd>Ctrl</kbd>+<kbd>O</kbd>: Open file(local or remote)
+<li>Support auto save, even the browser close or terminated</li>
 
-* <kbd>Ctrl</kbd>+<kbd>S</kbd>: Save file
+<li>Support insert a local image without upload</li>
 
-* <kbd>Ctrl</kbd>+<kbd>T</kbd>: New file(New tab)
+<li>Support paste the screen capture</li>
 
-* <kbd>Ctrl</kbd>+<kbd>W</kbd>: Close file(Close tab)
+<li>Support shortcuts</li>
 
-* <kbd>F5</kbd>: Markdown preview
+<li>Support fullscreen mode</li>
 
-## Known Issues
+<li>Github flavored for preview</li>
+</ul>
 
-* With Safari, the saving will open in a new window instead of saving.Then you need to press <kbd>⌘</kbd>+<kbd>S</kbd> to save the file after it is opened 
-* Paste image not support firefox so far
-* Same files will open in seperate tab
-* Not testing on mobile browsers
+<h2 id="shortcuts">Shortcuts</h2>
 
-## Credits
+<ul>
+<li><p><kbd>Ctrl</kbd>+<kbd>O</kbd>: Open file(local or remote)</p></li>
 
-* Pascal Deschênes & Devyn Stott<br/>
-  Authors of [showdown](https://github.com/showdownjs/showdown)
+<li><p><kbd>Ctrl</kbd>+<kbd>S</kbd>: Save file</p></li>
 
-* Taufan Aditya<br/>
-  Author of [bootstrap-markdown](https://github.com/toopay/bootstrap-markdown)
+<li><p><kbd>Ctrl</kbd>+<kbd>T</kbd>: New file(New tab)</p></li>
+
+<li><p><kbd>Ctrl</kbd>+<kbd>W</kbd>: Close file(Close tab)</p></li>
+
+<li><p><kbd>F5</kbd>: Markdown preview</p></li>
+</ul>
+
+<h2 id="knownissues">Known Issues</h2>
+
+<ul>
+<li>With Safari, the saving will open in a new window instead of saving.Then you need to press <kbd>⌘</kbd>+<kbd>S</kbd> to save the file after it is opened </li>
+
+<li>Paste image not support firefox so far</li>
+
+<li>Same files will open in seperate tab</li>
+
+<li>Not testing on mobile browsers</li>
+</ul>
+
+<h2 id="credits">Credits</h2>
+
+<ul>
+<li><p>Pascal Deschênes &amp; Devyn Stott<br/>
+Authors of <a href="https://github.com/showdownjs/showdown">showdown</a></p></li>
+
+<li><p>Taufan Aditya<br/>
+Author of <a href="https://github.com/toopay/bootstrap-markdown">bootstrap-markdown</a></p></li>
+</ul>

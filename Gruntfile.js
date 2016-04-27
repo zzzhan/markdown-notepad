@@ -57,8 +57,9 @@ module.exports = function (grunt) {
         dest:'dist/img/'
       }
 	},
-    clean: ['dist']
+    clean: ['dist'],
+    dotpl: require('./localization')(grunt)
   });
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
-  grunt.registerTask('default', ['jshint','clean','uglify','cssmin','concat','copy']);
+  grunt.registerTask('default', ['jshint','clean','uglify','cssmin','concat','copy','dotpl']);
 };

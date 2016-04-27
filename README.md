@@ -1,42 +1,58 @@
-# Markdown Notepad
+# ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) Markdown Notepad
 
-> A markdown notepad on the web.Awesome features buit-in multi-tabs,autosaving,inserting local image without upload,paste the screen capture and so on.
+> an online markdown editor,the notepad on the web.Awesome features buit-in multi-tabs,autosaving,inserting local image without upload,paste the screen capture and so on.
 >> [**Getting Started**](http://zzzhan.github.io/markdown-notepad/ 'Online Markdown Editor')
 
-## Features
+<h2 id="features">Features</h2>
 
-* Support multiple tabs(multiple open, editing and preview)
-* Support auto save, even the browser close or terminated
-* Support insert a local image without upload
-* Support paste the screen capture
-* Support shortcuts
-* Support fullscreen mode
-* Support offline
-* Github flavored for preview
+<ul>
+<li>Support multiple tabs(multiple open, editing and preview)</li>
 
-## Shortcuts
+<li>Support auto save, even the browser close or terminated</li>
 
-* <kbd>Ctrl</kbd>+<kbd>O</kbd>: Open file(local or remote)
+<li>Support insert a local image without upload</li>
 
-* <kbd>Ctrl</kbd>+<kbd>S</kbd>: Save file
+<li>Support paste the screen capture</li>
 
-* <kbd>Ctrl</kbd>+<kbd>T</kbd>: New file(New tab)
+<li>Support shortcuts</li>
 
-* <kbd>Ctrl</kbd>+<kbd>W</kbd>: Close file(Close tab)
+<li>Support fullscreen mode</li>
 
-* <kbd>F5</kbd>: Markdown preview
+<li>Github flavored for preview</li>
+</ul>
 
-## Known Issues
+<h2 id="shortcuts">Shortcuts</h2>
 
-* With Safari, the saving will open in a new window instead of saving.Then you need to press <kbd>⌘</kbd>+<kbd>S</kbd> to save the file after it is opened 
-* Paste image not support firefox so far
-* Same files will open in seperate tab
-* Not testing on mobile browsers
+<ul>
+<li><p><kbd>Ctrl</kbd>+<kbd>O</kbd>: Open file(local or remote)</p></li>
 
-## Credits
+<li><p><kbd>Ctrl</kbd>+<kbd>S</kbd>: Save file</p></li>
 
-* Pascal Deschênes & Devyn Stott<br/>
-  Authors of [showdown](https://github.com/showdownjs/showdown)
+<li><p><kbd>Ctrl</kbd>+<kbd>T</kbd>: New file(New tab)</p></li>
 
-* Taufan Aditya<br/>
-  Author of [bootstrap-markdown](https://github.com/toopay/bootstrap-markdown)
+<li><p><kbd>Ctrl</kbd>+<kbd>W</kbd>: Close file(Close tab)</p></li>
+
+<li><p><kbd>F5</kbd>: Markdown preview</p></li>
+</ul>
+
+<h2 id="knownissues">Known Issues</h2>
+
+<ul>
+<li>With Safari, the saving will open in a new window instead of saving.Then you need to press <kbd>⌘</kbd>+<kbd>S</kbd> to save the file after it is opened </li>
+
+<li>Paste image not support firefox so far</li>
+
+<li>Same files will open in seperate tab</li>
+
+<li>Not testing on mobile browsers</li>
+</ul>
+
+<h2 id="credits">Credits</h2>
+
+<ul>
+<li><p>Pascal Deschênes &amp; Devyn Stott<br/>
+Authors of <a href="https://github.com/showdownjs/showdown">showdown</a></p></li>
+
+<li><p>Taufan Aditya<br/>
+Author of <a href="https://github.com/toopay/bootstrap-markdown">bootstrap-markdown</a></p></li>
+</ul>

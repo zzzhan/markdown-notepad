@@ -3,8 +3,8 @@
   <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="an online markdown editor,the notepad on the web.Awesome features buit-in multi-tabs,autosaving,inserting local image without upload,paste the screen capture and so on." />
-    <meta name="keywords" content="online markdown editor,free markdown editor,markdown notepad,paste image,live preview,github flavored" />
+    <meta name="description" content="An online markdown editor,the notepad on the web.Awesome features buit-in multi-tabs,autosaving,inserting local image without upload,paste the screen capture and so on." />
+    <meta name="keywords" content="online markdown editor,free markdown editor,lite markdown editor,markdown notepad,paste image,live preview,github flavored" />
     <title>Markdown Notepad Online &middot; The BEST or NOTHING!</title> 
     <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://www.codingdrama.com/bootstrap-markdown/css/bootstrap-markdown.min.css" rel="stylesheet">
@@ -29,16 +29,37 @@
         <div class="btn-group btn-group-sm">
            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-option-vertical"></i></button>
            <ul class="dropdown-menu" role="menu">
-			<li><a href="http://daringfireball.net/projects/markdown/syntax" title="Markdown Syntax">Markdown Syntax</a></li>
-			<li><a href="WELCOME.md" title="Welcome" name="welcome">Welcome</a></li>
-			<li><a href="https://github.com/zzzhan/markdown-notepad/issues" title="Feedback">Feedback</a></li> 
-			<li><a href="README.md" title="About">About</a></li>
+		    
+			  <li><a href="#" title="New&emsp;&emsp;&emsp;Ctlr+T" name="new" data-cmd="new">New&emsp;&emsp;&emsp;Ctlr+T</a></li>
+			
+			  <li><a href="#" title="Open&emsp;&emsp;&emsp;Ctlr+O" name="open" data-cmd="open">Open&emsp;&emsp;&emsp;Ctlr+O</a></li>
+			
+			  <li><a href="#" title="Save&emsp;&emsp;&emsp;Ctlr+S" name="save" data-cmd="save">Save&emsp;&emsp;&emsp;Ctlr+S</a></li>
+			
+			  <li><a href="#" title="Rename" name="rename" data-cmd="rename">Rename</a></li>
+			
+			  <li><a href="#" title="Close&emsp;&emsp;&emsp;Ctlr+W" name="close" data-cmd="close">Close&emsp;&emsp;&emsp;Ctlr+W</a></li>
+			
+			  <li><a href="#" title="Close Others" name="closeOthers" data-cmd="closeOthers">Close Others</a></li>
+			
+			  <li><a href="#" title="Close All" name="closeAll" data-cmd="closeAll">Close All</a></li>
+			
+			<li role="separator" class="divider"></li>
+		    
+			  <li><a href="http://daringfireball.net/projects/markdown/syntax" title="Markdown Syntax" name="syntax">Markdown Syntax</a></li>
+			
+			  <li><a href="WELCOME.md" title="Welcome" name="welcome">Welcome</a></li>
+			
+			  <li><a href="https://github.com/zzzhan/markdown-notepad/issues" title="Feedback" name="feedback">Feedback</a></li>
+			
+			  <li><a href="README.md" title="About" name="about">About</a></li>
+			
 		   </ul>
         </div>	  
         <div class="btn-group btn-group-sm">
-		  <button class="btn btn-default" title="New&emsp;Ctlr+T" data-cmd="new"><i class="glyphicon glyphicon-file"></i></button> 
-		  <button class="btn btn-default" title="Open&emsp;Ctlr+O" data-cmd="open"><i class="glyphicon glyphicon-folder-open"></i></button> 
-		  <button class="btn btn-default" title="Save&emsp;Ctrl+S" data-cmd="save"><i class="glyphicon glyphicon-floppy-disk"></i></button>
+		  <a class="btn btn-default" title="New&emsp;Ctlr+T" data-cmd="new"><i class="glyphicon glyphicon-file"></i></a> 
+		  <a class="btn btn-default" title="Open&emsp;Ctlr+O" data-cmd="open"><i class="glyphicon glyphicon-folder-open"></i></a> 
+		  <a class="btn btn-default" title="Save&emsp;Ctrl+S" data-cmd="save"><i class="glyphicon glyphicon-floppy-disk"></i></a>
 		</div> 
 	    <div class="btn-group btn-group-sm pull-right">
 		  <a class="btn btn-default" title="Feedback" href="https://github.com/zzzhan/markdown-notepad/issues">

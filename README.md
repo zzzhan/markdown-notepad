@@ -1,17 +1,33 @@
-# ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) Markdown Notepad
+# ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) Markdown Notepad([中文](READ_zh-CN.md))
 
-> an online markdown editor,the notepad on the web.Awesome features buit-in multi-tabs,autosaving,inserting local image without upload,paste the screen capture and so on.
+> An online markdown editor,the notepad on the web.Awesome features buit-in multi-tabs,autosaving,inserting local image without upload,paste the screen capture and so on.
 >> [**Getting Started**](http://zzzhan.github.io/markdown-notepad/ 'Online Markdown Editor')
 
 ## Features
 
-* Support multiple tabs(multiple open, editing and preview)
-* Support auto save, even the browser close or terminated
-* Support insert a local image without upload
-* Support paste the screen capture
-* Support shortcuts
-* Support fullscreen mode
-* Github flavored for preview
+* Multiple tabs
+
+  Power you to open, edit or preview multiple files on the same time  
+  
+* Auto save and recovery
+
+  Not need to save manually, data can be recoved next time when close the browser,even terminated by power off.
+  
+* Insert a local image without upload
+
+  Not like more editor do, you don't need to upload before inserting a local image.
+
+* Paste screen capture directly
+
+  Print your screen with <kbd>PrtScn</kbd>, then <kbd>Ctrl</kbd>+<kbd>V</kbd> directly
+
+* Shortcuts
+
+  See more detail on the following
+  
+* Fullscreen mode
+
+* Github flavored
 
 ## Shortcuts
 

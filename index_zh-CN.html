@@ -3,9 +3,9 @@
   <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="在线markdown编辑器,网络记事本.内置多标签支持，自动保存，插入图片免上传，屏幕截图粘贴等等，功能丰富，是一个很棒的在线工具." />
-    <meta name="keywords" content="在线markdown编辑器,记事本,免费,实时预览,github风格, 最好用的markdown编辑器" />
-    <title>Markdown在线记事本 &middot; 最好的在线编辑器</title> 
+    <meta name="description" content="Markdown编辑器,网络上免费,小巧的Markdown记事本.内置多标签支持，自动保存，插入图片免上传，屏幕截图粘贴等等，功能丰富，是一个很棒的在线工具." />
+    <meta name="keywords" content="在线markdown编辑器,Markdown记事本,免费,小巧,实时预览,github风格, 最好用的markdown编辑器" />
+    <title>Markdown记事本 &middot; 最好的Markdown编辑器</title> 
     <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://www.codingdrama.com/bootstrap-markdown/css/bootstrap-markdown.min.css" rel="stylesheet">
     <link href="dist/css/markdown-notepad.all.css" rel="stylesheet">
@@ -29,16 +29,37 @@
         <div class="btn-group btn-group-sm">
            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-option-vertical"></i></button>
            <ul class="dropdown-menu" role="menu">
-			<li><a href="https://github.com/zzzhan/markdown-notepad" title="主页">主页</a></li>
-			<li><a href="WELCOME_zh-CN.md" title="欢迎使用" name="welcome">欢迎使用</a></li>
-			<li><a href="https://github.com/zzzhan/markdown-notepad/issues" title="反馈">反馈</a></li> 
-			<li><a href="README_zh-CN.md" title="关于">关于</a></li>
+		    
+			  <li><a href="#" title="新建&emsp;&emsp;&emsp;Ctlr+T" name="new" data-cmd="new">新建&emsp;&emsp;&emsp;Ctlr+T</a></li>
+			
+			  <li><a href="#" title="打开&emsp;&emsp;&emsp;Ctlr+O" name="open" data-cmd="open">打开&emsp;&emsp;&emsp;Ctlr+O</a></li>
+			
+			  <li><a href="#" title="保存&emsp;&emsp;&emsp;Ctlr+S" name="save" data-cmd="save">保存&emsp;&emsp;&emsp;Ctlr+S</a></li>
+			
+			  <li><a href="#" title="重命名" name="rename" data-cmd="rename">重命名</a></li>
+			
+			  <li><a href="#" title="关闭&emsp;&emsp;&emsp;Ctlr+W" name="close" data-cmd="close">关闭&emsp;&emsp;&emsp;Ctlr+W</a></li>
+			
+			  <li><a href="#" title="关闭其他" name="closeOthers" data-cmd="closeOthers">关闭其他</a></li>
+			
+			  <li><a href="#" title="关闭全部" name="closeAll" data-cmd="closeAll">关闭全部</a></li>
+			
+			<li role="separator" class="divider"></li>
+		    
+			  <li><a href="https://raw.githubusercontent.com/riku/Markdown-Syntax-CN/master/syntax.md" title="Markdown语法" name="syntax">Markdown语法</a></li>
+			
+			  <li><a href="WELCOME.md" title="欢迎使用" name="welcome">欢迎使用</a></li>
+			
+			  <li><a href="https://github.com/zzzhan/markdown-notepad/issues" title="反馈" name="feedback">反馈</a></li>
+			
+			  <li><a href="README.md" title="关于" name="about">关于</a></li>
+			
 		   </ul>
         </div>	  
         <div class="btn-group btn-group-sm">
-		  <button class="btn btn-default" title="新建&emsp;Ctlr+T" data-cmd="new"><i class="glyphicon glyphicon-file"></i></button> 
-		  <button class="btn btn-default" title="打开&emsp;Ctlr+O" data-cmd="open"><i class="glyphicon glyphicon-folder-open"></i></button> 
-		  <button class="btn btn-default" title="保存&emsp;Ctrl+S" data-cmd="save"><i class="glyphicon glyphicon-floppy-disk"></i></button>
+		  <a class="btn btn-default" title="新建&emsp;Ctlr+T" data-cmd="new"><i class="glyphicon glyphicon-file"></i></a> 
+		  <a class="btn btn-default" title="打开&emsp;Ctlr+O" data-cmd="open"><i class="glyphicon glyphicon-folder-open"></i></a> 
+		  <a class="btn btn-default" title="保存&emsp;Ctrl+S" data-cmd="save"><i class="glyphicon glyphicon-floppy-disk"></i></a>
 		</div> 
 	    <div class="btn-group btn-group-sm pull-right">
 		  <a class="btn btn-default" title="反馈" href="https://github.com/zzzhan/markdown-notepad/issues">

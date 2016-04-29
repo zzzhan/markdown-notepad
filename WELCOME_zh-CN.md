@@ -1,6 +1,6 @@
 # ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) 欢迎使用Markdown记事本
 
-> 这是一个很棒的markdown编辑器.你现在看到的内容就是使用该工具所写的.你可以点击<kbd>预览</kbd>按钮切换查看该markdown文本. 尽情使用吧，该工具是免费的! 如有问题欢迎反馈:)
+> 这是一个很棒的Markdown编辑器.你现在看到的内容就是使用该工具所写的.你可以点击<kbd>预览</kbd>按钮切换查看该Markdown文本. 对于Markdown新手,你可以阅读[Markdown语法](https://raw.githubusercontent.com/riku/Markdown-Syntax-CN/master/syntax.md).尽情使用吧，该工具是免费的! 如有问题欢迎反馈:)
 
 
 ## 功能

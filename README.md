@@ -1,6 +1,6 @@
-# ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) Markdown Notepad
+# ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) Markdown Notepad([中文](READ_zh-CN.md))
 
-> an online markdown editor,the notepad on the web.Awesome features buit-in multi-tabs,autosaving,inserting local image without upload,paste the screen capture and so on.
+> An online markdown editor,the notepad on the web.Awesome features buit-in multi-tabs,autosaving,inserting local image without upload,paste the screen capture and so on.
 >> [**Getting Started**](http://zzzhan.github.io/markdown-notepad/ 'Online Markdown Editor')
 
 ## Features

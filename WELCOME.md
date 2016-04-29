@@ -1,6 +1,6 @@
 # ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) Welcome to Markdown Notepad
 
-> This is an awesome tool on the web for markdown text editing.What you are reading now was edited using this tool by myself.You can press `Preview` above to see the markdown text. This tool is free, enjoy it! Welcome any feedbacks:)
+> This is an awesome tool on the web for markdown text editing.What you are reading now was edited using this tool by myself.You can press the switch button <kbd>Preview</kbd> to see the markdown text. For markdown newbie, you can learn the [markdown syntax](http://daringfireball.net/projects/markdown/syntax). This tool is free, enjoy it! Welcome any feedbacks:)
 
 
 ## Features

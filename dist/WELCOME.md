@@ -1,6 +1,6 @@
-# ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) Welcome to Markdown Notepad
+# ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) Welcome to Markdown Notes
 
-> This is an awesome tool on the web for markdown text editing.What you are reading now was edited using this tool by myself.You can press the switch button <kbd>Preview</kbd> to see the markdown text. For markdown newbie, you can learn the [markdown syntax](http://daringfireball.net/projects/markdown/syntax). This tool is free, enjoy it! Welcome any feedbacks:)
+> This is an awesome tool on the web for markdown text editing.What you are reading now was edited using this tool by myself.You can press the switch button <kbd>Preview</kbd> to see the markdown text. For markdown newbie, you can learn the [markdown syntax](http://daringfireball.net/projects/markdown/syntax). This tool is free, enjoy it! Welcome any [feedbacks](https://github.com/zzzhan/markdown-notepad/issues):)
 
 
 ## Features
@@ -40,13 +40,6 @@
 * <kbd>Ctrl</kbd>+<kbd>W</kbd>: Close file(Close tab)
 
 * <kbd>F5</kbd>: Markdown preview
-
-## Known Issues
-
-* With Safari, the saving will open in a new window instead of saving.Then you need to press <kbd>⌘</kbd>+<kbd>S</kbd> to save the file after it is opened 
-* Paste image not support firefox so far
-* Same files will open in seperate tab
-* Not testing on mobile browsers
 
 ## Credits
 

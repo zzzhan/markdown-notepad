@@ -1,7 +1,7 @@
-# ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) Markdown Notepad([中文](READ_zh-CN.md))
+# ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) Markdown Notes([中文](README_zh-CN.md))
 
-> An online markdown editor,the notepad on the web.Awesome features buit-in multi-tabs,autosaving,inserting local image without upload,paste the screen capture and so on.
->> [**Getting Started**](http://zzzhan.github.io/markdown-notepad/ 'Online Markdown Editor')
+> This is an awesome tool on the web for markdown text editing.Awesome features buit-in: multi-tabs,autosaving,inserting local image without upload,paste the screen capture and so on.
+>> [**Getting Started**](http://zzzhan.github.io/markdown-notepad/ 'Online Markdown Editor')<br> [![Offline Edition](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/markdown-notes/maiemhinajnfghcmdlabcelecgljache 'Offline Edition')
 
 ## Features
 
@@ -40,13 +40,6 @@
 * <kbd>Ctrl</kbd>+<kbd>W</kbd>: Close file(Close tab)
 
 * <kbd>F5</kbd>: Markdown preview
-
-## Known Issues
-
-* With Safari, the saving will open in a new window instead of saving.Then you need to press <kbd>⌘</kbd>+<kbd>S</kbd> to save the file after it is opened 
-* Paste image not support firefox so far
-* Same files will open in seperate tab
-* Not testing on mobile browsers
 
 ## Credits
 

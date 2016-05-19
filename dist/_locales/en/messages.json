@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "Markdown Notes"
+  },
+  "appDesc": {
+    "message": "Markdown editor, the BEST or NOTHING!"
+  },
+  "local_launch_path": {
+    "message": "index.html"
+  }
+}

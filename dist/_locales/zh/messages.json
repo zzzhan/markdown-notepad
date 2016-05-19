@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "Markdown笔记"
+  },
+  "appDesc": {
+    "message": "Markdown笔记,最好用的markdown编辑器"
+  },
+  "local_launch_path": {
+    "message": "index_zh-CN.html"
+  }
+}

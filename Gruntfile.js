@@ -55,7 +55,27 @@ module.exports = function (grunt) {
         cwd: 'src/img/',
         src: '**/*',
         dest:'dist/img/'
-      }
+      },
+      chrome: {
+        expand: true,
+        cwd: 'src/chrome-app/',
+        src: '**/*',
+        dest:'dist/'
+      },
+	  components: {
+		expand: true,
+        cwd: 'bower_components/',
+		src: [
+		'jquery/dist/jquery.min.js',
+		'bootstrap/dist/js/bootstrap.min.js',
+		'bootstrap/dist/css/bootstrap.min.css',
+		'bootstrap/dist/fonts/**',
+		'bootstrap-markdown/css/bootstrap-markdown.min.css',
+		'bootstrap-markdown/js/bootstrap-markdown.js',
+		'bootstrap-markdown/locale/bootstrap-markdown.zh.js',
+		'showdown/dist/showdown.min.js'],
+		dest: "dist/components/"
+	  }
 	},
     clean: ['dist'],
     dotpl: require('./localization')(grunt)

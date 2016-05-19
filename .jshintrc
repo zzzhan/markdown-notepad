@@ -30,6 +30,7 @@
     "ZeroClipboard":true,
 	"confirm":true,
 	"prompt": true,
-	"showdown": true
+	"showdown": true,
+	"chrome": true
   }
 }

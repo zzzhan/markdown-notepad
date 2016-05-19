@@ -1,7 +1,7 @@
-# ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) Markdown记事本
+# ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) Markdown笔记
 
-> Markdown编辑器,网络上免费,小巧的Markdown记事本.内置多标签支持，自动保存，插入图片免上传，屏幕截图粘贴等等，功能丰富，是一个很棒的在线工具.
->> [**开始使用**](http://zzzhan.github.io/markdown-notepad/ '在线Markdown编辑器')
+> 网络上免费,小巧的Markdown笔记.内置多标签支持，自动保存，插入图片免上传，屏幕截图粘贴等等，功能丰富，是一个很棒的在线工具.
+>> [**开始使用**](http://zzzhan.github.io/markdown-notepad/ '在线Markdown编辑器')<br> [![离线版本](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/markdown-notes/maiemhinajnfghcmdlabcelecgljache '离线版本')
 
 ## 功能
 
@@ -36,13 +36,6 @@
 * <kbd>Ctrl</kbd>+<kbd>W</kbd>: 关闭文件(标签)
 
 * <kbd>F5</kbd>: Markdown预览
-
-## 已知问题
-
-* 使用Safari时, 当点击保存将弹出新窗口，这时你需要再按<kbd>⌘</kbd>+<kbd>S</kbd>组合键保存
-* 粘贴图片暂不支持`Firefox`
-* 打开同一个文件时将在不同的标签显示
-* 未在移动端浏览器中测试
 
 ## 感谢
 

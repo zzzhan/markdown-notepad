@@ -6,8 +6,10 @@ module.exports = function(grunt) {
       options: {
         tpl:{
 		  index: 'src/tpl/index.html',
+		  offline: 'src/tpl/index.html',
 		  readme: 'src/tpl/readme.md',
-		  welcome: 'src/tpl/readme.md'
+		  welcome: 'src/tpl/readme.md',
+		  about: 'src/tpl/about.md'
 		},
 		renderer: function(k, v) {
 		  var ctx = this.ctx,
@@ -38,6 +40,12 @@ module.exports = function(grunt) {
           'index_zh-CN.html': ['src/lang/en-US/main.json','src/lang/zh-CN/main.json']
         }
 	  },
+      offline: {
+        files: {
+          'dist/index.html': ['src/lang/en-US/main.json','src/lang/en-US/offline.json'],
+          'dist/index_zh-CN.html': ['src/lang/en-US/main.json','src/lang/zh-CN/main.json','src/lang/en-US/offline.json','src/lang/zh-CN/offline.json']
+        }
+	  },
       readme: {
         files: {
           'README.md': ['src/lang/en-US/main.json','src/lang/en-US/readme.json'],
@@ -46,8 +54,14 @@ module.exports = function(grunt) {
 	  },
       welcome: {
         files: {
-          'WELCOME.md': ['src/lang/en-US/welcome.json'],
-          'WELCOME_zh-CN.md': ['src/lang/zh-CN/welcome.json']
+          'dist/WELCOME.md': ['src/lang/en-US/welcome.json'],
+          'dist/WELCOME_zh-CN.md': ['src/lang/zh-CN/welcome.json']
+        }
+	  },
+      about: {
+        files: {
+          'dist/ABOUT.md': ['src/lang/en-US/main.json','src/lang/en-US/offline.json'],
+          'dist/ABOUT_zh-CN.md': ['src/lang/en-US/main.json','src/lang/zh-CN/main.json','src/lang/zh-CN/offline.json']
         }
 	  }
     };

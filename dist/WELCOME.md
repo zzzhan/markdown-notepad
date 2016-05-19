@@ -1,7 +1,7 @@
-# ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) Markdown Notes([中文](README_zh-CN.md))
+# ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) Welcome to Markdown Notes
 
-> This is an awesome tool on the web for markdown text editing.Awesome features buit-in: multi-tabs,autosaving,inserting local image without upload,paste the screen capture and so on.
->> [**Getting Started**](http://zzzhan.github.io/markdown-notepad/ 'Online Markdown Editor')<br> [![Offline Edition](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/markdown-notes/maiemhinajnfghcmdlabcelecgljache 'Offline Edition')
+> This is an awesome tool on the web for markdown text editing.What you are reading now was edited using this tool by myself.You can press the switch button <kbd>Preview</kbd> to see the markdown text. For markdown newbie, you can learn the [markdown syntax](http://daringfireball.net/projects/markdown/syntax). This tool is free, enjoy it! Welcome any [feedbacks](https://github.com/zzzhan/markdown-notepad/issues):)
+
 
 ## Features
 

@@ -1,7 +1,7 @@
-# ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) Markdown笔记
+# ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) 欢迎使用Markdown笔记
 
-> 网络上免费,小巧的Markdown笔记.内置多标签支持，自动保存，插入图片免上传，屏幕截图粘贴等等，功能丰富，是一个很棒的在线工具.
->> [**开始使用**](http://zzzhan.github.io/markdown-notepad/ '在线Markdown编辑器')<br> [![离线版本](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/markdown-notes/maiemhinajnfghcmdlabcelecgljache '离线版本')
+> 这是一个很棒的Markdown编辑器.你现在看到的内容就是使用该工具所写的.你可以点击<kbd>预览</kbd>按钮切换查看该Markdown文本. 对于Markdown新手,你可以阅读[Markdown语法](https://raw.githubusercontent.com/riku/Markdown-Syntax-CN/master/syntax.md).尽情使用吧，该工具是免费的! 如有问题欢迎[反馈](https://github.com/zzzhan/markdown-notepad/issues)
+
 
 ## 功能
 

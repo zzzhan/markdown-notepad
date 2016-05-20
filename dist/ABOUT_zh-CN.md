@@ -1,7 +1,7 @@
 # ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) Markdown笔记
 
 > # **Markdown笔记**
-[![离线版本](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/markdown-notes/maiemhinajnfghcmdlabcelecgljache '离线版本')
+[![离线版本](http://md.shapefly.com/dist/img/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/markdown-notes/maiemhinajnfghcmdlabcelecgljache '离线版本')
 
 > ### **作者**
 

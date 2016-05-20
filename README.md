@@ -1,7 +1,7 @@
-# ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) Markdown Notes([中文](README_zh-CN.md))
+# ![favicon](http://md.shapefly.com/dist/img/favicon-96x96.png) Markdown Notes([中文](README_zh-CN.md))
 
 > This is an awesome tool on the web for markdown text editing.Awesome features buit-in: multi-tabs,autosaving,inserting local image without upload,paste the screen capture and so on.
->> [**Getting Started**](http://zzzhan.github.io/markdown-notepad/ 'Online Markdown Editor')<br> [![Offline Edition](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/markdown-notes/maiemhinajnfghcmdlabcelecgljache 'Offline Edition')
+>> [**Getting Started**](http://md.shapefly.com 'Online Markdown Editor')<br> [![Offline Edition](http://md.shapefly.com/dist/img/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/markdown-notes/maiemhinajnfghcmdlabcelecgljache 'Offline Edition')
 
 ## Features
 

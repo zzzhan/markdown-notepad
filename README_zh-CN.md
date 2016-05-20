@@ -1,7 +1,7 @@
-# ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) Markdown笔记
+# ![favicon](http://md.shapefly.com/dist/img/favicon-96x96.png) Markdown笔记
 
 > 网络上免费,小巧的Markdown笔记.内置多标签支持，自动保存，插入图片免上传，屏幕截图粘贴等等，功能丰富，是一个很棒的在线工具.
->> [**开始使用**](http://zzzhan.github.io/markdown-notepad/ '在线Markdown编辑器')<br> [![离线版本](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/markdown-notes/maiemhinajnfghcmdlabcelecgljache '离线版本')
+>> [**开始使用**](http://md.shapefly.com '在线Markdown编辑器')<br> [![离线版本](http://md.shapefly.com/dist/img/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/markdown-notes/maiemhinajnfghcmdlabcelecgljache '离线版本')
 
 ## 功能
 

@@ -1,6 +1,5 @@
-# ![favicon](http://zzzhan.github.io/markdown-notepad/dist/img/favicon-96x96.png) Markdown Notes
+# ![favicon](http://md.shapefly.com/dist/img/favicon-96x96.png) Markdown Notes
 
-> # **Markdown Notes**
 [![Chrome App Available](http://md.shapefly.com/dist/img/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/markdown-notes/maiemhinajnfghcmdlabcelecgljache 'Offline Edition')
 
 > ## Author

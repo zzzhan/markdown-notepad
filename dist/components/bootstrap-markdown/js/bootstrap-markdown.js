@@ -778,7 +778,6 @@
         case 17: // ctrl
         case 18: // alt
           break;
-
         case 9: // tab
           var nextTab;
           if (nextTab = this.getNextTab(),nextTab !== null) {
@@ -806,7 +805,6 @@
           }
 
           break;
-
         case 13: // enter
           blocked = false;
           break;
@@ -1040,7 +1038,7 @@
           icon: { glyph: 'glyphicon glyphicon-link', fa: 'fa fa-link', 'fa-3': 'icon-link' },
           callback: function(e){
             // Give [] surround the selection and prepend the link
-            var chunk, cursor, selected = e.getSelection(), content = e.getContent(), link;
+            var chunk, cursor, selected = e.getSelection(), content = e.getContent();
 
             if (selected.length === 0) {
               // Give extra word
@@ -1048,20 +1046,30 @@
             } else {
               chunk = selected.text;
             }
+			var msgbox = e.$options.msgbox,
+				cb = function(link){
+					var urlRegex = new RegExp('^((http|https)://|(mailto:)|(//))[a-z0-9]', 'i');
+					if (link !== null && link !== '' && link !== 'http://' && urlRegex.test(link)) {
+					  var sanitizedLink = $('<div>'+link+'</div>').text();
 
-            link = prompt(e.__localize('Insert Hyperlink'),'http://');
+					  // transform selection and set the cursor into chunked text
+					  e.replaceSelection('['+chunk+']('+sanitizedLink+')');
+					  cursor = selected.start+1;
 
-            var urlRegex = new RegExp('^((http|https)://|(mailto:)|(//))[a-z0-9]', 'i');
-            if (link !== null && link !== '' && link !== 'http://' && urlRegex.test(link)) {
-              var sanitizedLink = $('<div>'+link+'</div>').text();
-
-              // transform selection and set the cursor into chunked text
-              e.replaceSelection('['+chunk+']('+sanitizedLink+')');
-              cursor = selected.start+1;
-
-              // Set the cursor
-              e.setSelection(cursor,cursor+chunk.length);
-            }
+					  // Set the cursor
+					  e.setSelection(cursor,cursor+chunk.length);
+					}
+				};
+			if(!!msgbox) {
+			  $(msgbox).data('msgbox').prompt('http://', function(which, val){
+				if(which===1) {
+				  cb(val);	
+				} 
+			  }, e.__localize('Insert Hyperlink'));
+			} else {
+              var link = prompt(e.__localize('Insert Hyperlink'),'http://');
+			  cb(link);
+			}
           }
         },{
           name: 'cmdImage',
@@ -1070,7 +1078,7 @@
           icon: { glyph: 'glyphicon glyphicon-picture', fa: 'fa fa-picture-o', 'fa-3': 'icon-picture' },
           callback: function(e){
             // Give ![] surround the selection and prepend the image link
-            var chunk, cursor, selected = e.getSelection(), content = e.getContent(), link;
+            var chunk, cursor, selected = e.getSelection(), content = e.getContent();
 
             if (selected.length === 0) {
               // Give extra word
@@ -1079,22 +1087,33 @@
               chunk = selected.text;
             }
 
-            link = prompt(e.__localize('Insert Image Hyperlink'),'http://');
+			var msgbox = e.$options.msgbox,
+				cb = function(link){
+					var urlRegex = new RegExp('^((http|https)://|(//))[a-z0-9]', 'i');
+					if (link !== null && link !== '' && link !== 'http://' && urlRegex.test(link)) {
+					  var sanitizedLink = $('<div>'+link+'</div>').text();
 
-            var urlRegex = new RegExp('^((http|https)://|(//))[a-z0-9]', 'i');
-            if (link !== null && link !== '' && link !== 'http://' && urlRegex.test(link)) {
-              var sanitizedLink = $('<div>'+link+'</div>').text();
+					  // transform selection and set the cursor into chunked text
+					  e.replaceSelection('!['+chunk+']('+sanitizedLink+' "'+e.__localize('enter image title here')+'")');
+					  cursor = selected.start+2;
 
-              // transform selection and set the cursor into chunked text
-              e.replaceSelection('!['+chunk+']('+sanitizedLink+' "'+e.__localize('enter image title here')+'")');
-              cursor = selected.start+2;
+					  // Set the next tab
+					  e.setNextTab(e.__localize('enter image title here'));
 
-              // Set the next tab
-              e.setNextTab(e.__localize('enter image title here'));
-
-              // Set the cursor
-              e.setSelection(cursor,cursor+chunk.length);
-            }
+					  // Set the cursor
+					  e.setSelection(cursor,cursor+chunk.length);
+					}
+				};
+			if(!!msgbox) {
+			  $(msgbox).data('msgbox').prompt('http://', function(which, val){
+				if(which===1) {
+				  cb(val);
+				}
+			  }, e.__localize('Insert Image Hyperlink'));
+			} else {
+			  var link = prompt(e.__localize('Insert Image Hyperlink'),'http://');
+			  cb(link);
+			}
           }
         }]
       },{
